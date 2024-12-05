@@ -1,0 +1,159 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+  background-color: #b49f9f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(201, 0, 0, 0.1);
+  border: 1px solid #ddd; 
+}
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  border: 1px solid #ddd; 
+  background-color: #cad434;
+}
+
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #555;
+}
+
+
+.mb-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid #733c3c; 
+  border-radius: 8px;
+  background-color: #f16767;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+
+.alert-danger {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+
+ul.list-group {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.list-group-item-success {
+  background-color: #d4edda;
+}
+
+.list-group-item button {
+  transition: transform 0.3s ease;
+}
+
+.list-group-item button:hover {
+  transform: scale(1.1);
+}
+
+
+.btn-success {
+  background-color: #8b9c76;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #d28189;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #d28189;
+}
+
+.btn-warning {
+  background-color: #d28189;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #cce79e;
+}
+
+.btn-secondary {
+  background-color: #db99cd;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+input.form-control {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button.btn {
+  border-radius: 6px;
+  padding: 6px 15px;
+}
+
+
+span {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+span[style*="line-through"] {
+  text-decoration: line-through;
+}
+
+
+input.form-control {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button.btn {
+  border-radius: 6px;
+  padding: 6px 15px;
+}
+
+button.btn-primary {
+  margin-top: 10px;
+}
